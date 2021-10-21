@@ -579,8 +579,7 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-link-contacts:hover,
-.footer-link-contacts:focus {
+.footer-link-contacts:hover, .footer-link-contacts:focus {
   color: var(--akcent-color);
 }
 
@@ -619,16 +618,15 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-input:hover, .footer-input:focus {
+  border: 1px solid var(--akcent-color);
+}
+
 .footer-input::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: calc(20 / 16);
   color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-input:hover,
-.footer-input:focus {
-  border: 1px solid var(--akcent-color);
 }
 
 .footer-btn {

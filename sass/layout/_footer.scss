@@ -38,35 +38,30 @@ address {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.footer-link-contacts:hover, 
-.footer-link-contacts:focus {
+    &:hover, 
+    &:focus {
     color: var(--akcent-color);
+    }
 }
 
-.footer-item:not(:last-child)  {
-    margin-bottom: 9px;
+.footer-item {
+    &:not(:last-child)  {
+        margin-bottom: 9px;
+    }
 }
-
-
-
-
 
 .footer-form {
     display: flex;
-    
 }
 
 .send-text {
-font-weight: 700;
-font-size: 14px;
-line-height: calc(16 / 14);
-text-transform: uppercase;
-color: var(--akcent-text-color);
-margin: 0;
-margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+    color: var(--akcent-text-color);
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 .footer-input {
@@ -84,18 +79,16 @@ margin-bottom: 20px;
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-input::placeholder {
-font-weight: 400;
-font-size: 16px;
-line-height: calc(20 / 16);
-color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-input:hover,
-.footer-input:focus {
-    border: 1px solid var(--akcent-color);
+    &:hover,
+    &:focus {
+        border: 1px solid var(--akcent-color);
+    }
+    &::placeholder {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(20 / 16);
+        color: rgba(255, 255, 255, 0.6);
+    }
 }
 
 .footer-btn {
