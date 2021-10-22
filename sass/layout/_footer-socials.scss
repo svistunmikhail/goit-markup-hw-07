@@ -1,8 +1,8 @@
-.footer-right {
+.box-right {
     margin-right: auto;
 }
 
-.socials-text { 
+.box-right__text { 
     margin-top: 0;
     margin-bottom: 20px;
     font-weight: 700;
@@ -12,11 +12,11 @@
     color:var(--akcent-text-color);
 }
 
-.footer-socials-list {
+.footer-socials {
     display: flex;
 }
 
-.footer-socials-item {
+.footer-socials__item {
     width: 44px;
     height: 44px;
     &:not(:first-child) {
@@ -24,7 +24,7 @@
     }
 }
 
-.footer-socials-link {
+.footer-socials__link {
     display:flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@
     }
 }
 
-.footer-socials-icon {
+.footer-socials__icon {
     fill: var(--primary-backgraund-color);
     height: 20px;
     width: 20px;

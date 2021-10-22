@@ -1,4 +1,4 @@
-.clients-title {
+.clients__title {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
@@ -12,20 +12,20 @@
     justify-content: center;
 }
 
-.clients-icon {
+.clients-list__icon {
     fill: var(--social-icon-color);
     width: 106px;
     height: 60px;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    .clients-link:focus &, 
-    .clients-link:hover & {
+    .clients-list__link:focus &, 
+    .clients-list__link:hover & {
         fill: currentColor;
     }
 }
 
-.clients-item {
+.clients-list__item {
     width: 170px;
     height: 92px;
     &:not(:last-child) {
@@ -33,7 +33,7 @@
     }
 }
 
-.clients-link {
+.clients-list__link {
     color: var(--akcent-color);
     width: 100%;
     height: 100%;
